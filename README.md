@@ -1,6 +1,6 @@
-##  Heads or Tails
+#  Heads or Tails
 
-# UPDATE
+## UPDATE
 We've moved away from repl.it for coding exercises.
 Check out the new exercises on Coding Rooms with automated submissions.
 
@@ -8,7 +8,7 @@ Login to your Udemy course and head over to the link below to get the sign up li
 
 [Click here](https://www.udemy.com/course/100-days-of-code/learn/lecture/17825914#questions)
 
-# Instructions
+## Instructions
 
 You are going to write a virtual coin toss program. It will randomly tell the user "Heads" or "Tails". 
 
@@ -20,7 +20,7 @@ e.g.
 1 means Heads
 0 means Tails 
 
-# Example Output
+## Example Output
 
 ```
 Heads
@@ -33,13 +33,13 @@ Tails
 ```
 
 
-# Solution
+## Solution
 
 [https://repl.it/@appbrewery/day-4-1-solution](https://repl.it/@appbrewery/day-4-1-solution)
 
-#~#  Who's Paying
+#  Who's Paying
 
-# UPDATE
+## UPDATE
 We've moved away from repl.it for coding exercises.
 Check out the new exercises on Coding Rooms with automated submissions.
 
@@ -47,7 +47,7 @@ Login to your Udemy course and head over to the link below to get the sign up li
 
 [Click here](https://www.udemy.com/course/100-days-of-code/learn/lecture/17825914#questions)
 
-# Instructions
+## Instructions
 
 You are going to write a program which will select a random name from a list of names. The person selected will have to pay for everybody's food bill. 
 
@@ -55,20 +55,20 @@ You are going to write a program which will select a random name from a list of 
 
 **Line 8** splits the string `names_string` into individual names and puts them inside a **List** called `names`. For this to work, you must enter all the names as name followed by comma then space. e.g. name, name, name
 
-# Example Input
+## Example Input
 
 ```
 Angela, Ben, Jenny, Michael, Chloe
 ```
 Note: notice that there is a space between the comma and the next name. 
-# Example Output
+## Example Output
 
 ```
 Michael is going to buy the meal today!
 ```
 
 
-# Hint
+## Hint
 
 1. You might need the help of the `len()` function.   
 
@@ -76,15 +76,15 @@ Michael is going to buy the meal today!
 
 2. Remember that Lists start at index 0!
 
-# Solution
+## Solution
 
 [https://repl.it/@appbrewery/day-4-2-solution](https://repl.it/@appbrewery/day-4-2-solution)
 
 
 
-## Treasure Map
+# Treasure Map
 
-# UPDATE
+## UPDATE
 We've moved away from repl.it for coding exercises.
 Check out the new exercises on Coding Rooms with automated submissions.
 
@@ -93,7 +93,7 @@ Login to your Udemy course and head over to the link below to get the sign up li
 [Click here](https://www.udemy.com/course/100-days-of-code/learn/lecture/17825914#questions)
 
 ![](https://cdn.fs.teachablecdn.com/wiFJAkZZSG2RpGsxYgDO)
-# Instructions
+## Instructions
 
 You are going to write a program which will mark a spot with an X.
 
@@ -122,7 +122,7 @@ First your program must take the user input and convert it to a usable format.
 
 Next, you need to use it to update your nested list with an "x". 
 
-# Example Input 1
+## Example Input 1
 
 column 2, row 3 would be entered as:
 
@@ -130,7 +130,7 @@ column 2, row 3 would be entered as:
 23
 ```
 
-# Example Output 1
+## Example Output 1
 
 ```
 ['⬜️', '⬜️', '⬜️']
@@ -143,20 +143,20 @@ e.g. When you hit **run**, this is what should happen:
 
 ![](https://cdn.fs.teachablecdn.com/5hliFjyIR96LdestyfPd)
 
-# Hint
+## Hint
 
 1. Remember that Lists start at index 0!
 2. ```map``` is just a variable that contains a nested list. It's not related to the map function in Python.
 
-# Solution
+## Solution
 
 [https://repl.it/@appbrewery/day-4-3-solution](https://repl.it/@appbrewery/day-4-3-solution)
 
 
 
-## Rock Paper Scissors
+# Rock Paper Scissors
 
-# Instructions
+## Instructions
 
 Make a rock, paper, scissors game. 
 
@@ -174,7 +174,7 @@ From there you will need to figure out:
 
 You can find the "official" rules of the game on [the World Rock Paper Scissors Association website.](https://wrpsa.com/the-official-rules-of-rock-paper-scissors/)
 
-# Debugging challenge
+## Debugging challenge
 
 Try running this code and type `5`.
 
@@ -184,5 +184,5 @@ But on line 38 we are trying to prevent a crash by detecting any numbers great t
 
 So what's going on? Can you debug the code and fix it?
 
-# Solution to the debugging challenge
+## Solution to the debugging challenge
 [https://repl.it/@appbrewery/rock-paper-scissors-debugged-end](https://repl.it/@appbrewery/rock-paper-scissors-debugged-end)
